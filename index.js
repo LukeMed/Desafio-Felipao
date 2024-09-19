@@ -1,1 +1,3 @@
-console.log(Bora)
+let nome = "Lucas"
+
+console.log(nome)
