@@ -1,6 +1,5 @@
 let nome = "Lucas"
-let nota1 = 8
-let nota2 = 9
-let media = (nota1+nota2/2)
+let atividade = "configuração"
+let plataforma = "Git"
 
-console.log(nome + ", sua média é " + media)
+console.log(nome + " está trabalhando na " + atividade + " do " + plataforma + ".")
