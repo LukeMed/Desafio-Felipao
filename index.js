@@ -1,5 +1,9 @@
-let nome = "Lucas"
-let atividade = "configuração"
-let plataforma = "Git"
+let aluno = "Lucas"
+let idade = 17
+let idadePermitida = 18
 
-console.log(nome + " está trabalhando na " + atividade + " do " + plataforma + " em 17/10/2024.")
+if(idade >= idadePermitida){
+console.log(aluno + ", você está autorizado.")
+}
+
+console.log(aluno + ", você não está autorizado.")
