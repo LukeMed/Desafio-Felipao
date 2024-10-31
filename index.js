@@ -1,9 +1,16 @@
 let aluno = "Lucas A. Medeiros"
 let idade = 17
 let idadePermitida = 18
+let emancipado = false
+const msgDeCadastroPos = " você está autorizado."
+const msgDeCadastroNeg = " você não está autorizado."
 
-if(idade >= idadePermitida){
-console.log(aluno + ", você está autorizado.")
+if(idade >= idadePermitida || !emancipado){
+console.log(aluno + msgDeCadastroPos)
 }
 
-console.log(aluno + ", você não está autorizado. Hora de trabalhar no desafio")
+else {
+    console.log(aluno + msgDeCadastroNeg)
+
+
+}
