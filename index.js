@@ -5,7 +5,7 @@ let emancipado = false
 const msgDeCadastroPos = " você está autorizado."
 const msgDeCadastroNeg = " você não está autorizado."
 
-if(idade >= idadePermitida || !emancipado){
+if(idade >= idadePermitida || emancipado){
 console.log(aluno + msgDeCadastroPos)
 }
 
