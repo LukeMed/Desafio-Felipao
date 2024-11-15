@@ -12,6 +12,6 @@ console.log(aluno + msgDeCadastroPos)
 else {
     console.log(aluno + msgDeCadastroNeg)
 
-    //Atualização08/11/2024
+    //Atualização15/11/2024
 
 }
